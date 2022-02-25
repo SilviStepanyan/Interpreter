@@ -1,0 +1,20 @@
+
+x = 7
+y = 8
+z = x + y
+v = y - x
+k = x * y
+e = x * 2
+g = e / y
+ch = 'hello'
+kv = 'world'
+bar = ch + kv
+bool1 = True
+bool2 = False
+bool3 = bool1 * bool2
+if x > 5 {
+ sum = x + y
+ div = x / 7
+ mul = x * 5
+ sub = x - 25
+}
