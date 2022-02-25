@@ -119,7 +119,6 @@ for index, token in enumerate(myFileList):
             myFileList.pop(lastBrace - 1)
             lastBrace = lastBrace - 1
         if statement == True:
-            print('gggggggggggggggggggggggggggggggggggg')
             for index, token in enumerate(ifBody):
                 if token == '=' and ifBody[index + 2] not in operators:
                     if isinstance(eval(ifBody[index + 1]), bool):
