@@ -5,7 +5,6 @@ from sys import *
 
 myFile = open(argv[1], "r")
 myFileList = myFile.read().split()
-# print('myFileList = ', myFileList)
 
 # DECLARE VARIABLES AND ARITHMETIC OPERATORS
 
@@ -202,17 +201,5 @@ for index, token in enumerate(myFileList):
                     else:
                         print('TypeError')
 
-
-
-
-print('idbody', ifBody)
-
-        # print(eval(myFileList[index+1] + myFileList[index+2] + myFileList[index+3]))
-
-
-
-
-
-print('varDict = ', varDict)
 
 myFile.close()
